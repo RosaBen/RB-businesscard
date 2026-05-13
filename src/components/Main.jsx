@@ -19,7 +19,7 @@ export default function Main(){
       </section>
     
     <section className="footer">
-         <button className="github"><img src={github} alt="Follow my work on github" /><a href="#"></a></button>
+         <button className="github"><a href="https://github.com/RosaBen" target="_blank"><img src={github} alt="Follow my work on github" /></a></button>
       </section>
     </main>
   )
