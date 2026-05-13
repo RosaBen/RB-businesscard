@@ -1,0 +1,161 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #22242c;
+}
+
+.container {
+  background-color: #1b1a21;
+  width: 100%;
+  max-width: 317px;
+  margin: 0 auto;
+  color: white;
+  border-radius: 1rem;
+}
+
+/* header */
+
+.avatar {
+  margin-top: 3rem;
+  width: 317px;
+  height: 317px;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.titles {
+  text-align: center;
+  margin: 1rem 0 1.5rem;
+}
+
+h1,
+h2 {
+  margin-bottom: 1rem;
+}
+
+.titles h2 {
+  color: #f3bf99;
+}
+
+.buttons {
+  margin-top: 1rem;
+}
+
+.buttons,
+.email,
+.linkedin {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.email,
+.linkedin {
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.buttons button {
+  width: 115px;
+  height: 34px;
+}
+
+.buttons button img {
+  margin: 0;
+  width: 1rem;
+  height: 1rem;
+}
+
+.email {
+  background-color: white;
+}
+
+.email a {
+  color: black;
+}
+
+.linkedin {
+  background-color: #5093e2;
+}
+
+.linkedin img {
+  background-color: white;
+  padding: 0.1rem;
+}
+
+.linkedin a,
+.titles a {
+  color: white;
+}
+
+/* main */
+
+.descriptions p {
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+.descriptions h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.1rem;
+}
+
+.descriptions {
+  padding-bottom: 2rem;
+  width: 100%;
+  max-width: 247px;
+  margin: 3rem auto 1.5rem;
+}
+
+.footer {
+  background-color: #161618;
+  height: 64px;
+  border-radius: 0 0 1rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.github {
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: 5px solid #f3bf99;
+  background-color: #918e9b;
+  cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+  color: white;
+  margin-top: 2rem;
+  border: 2px solid white;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+footer p {
+  margin: 1rem;
+}
+a {
+  color: pink;
+  font-weight: bold;
+}
+
+footer a:hover {
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+footer a {
+  margin-left: 1rem;
+}
